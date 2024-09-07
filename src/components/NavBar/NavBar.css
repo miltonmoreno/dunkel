@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+
+.navBar {
+    display: flex;
+    justify-content:space-around;
+    height: 7.5vh;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+
+.navBarLinks{
+    display: flex;
+    list-style: none;
+    gap: 5vw;
+    width: 40%;
+}
+
+.navBarItems {
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navBarItems:hover {
+    text-decoration: none;
+    color: #4648C9;
+}
+
+.divLogo {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.logo {
+    width: 20%;
+}
