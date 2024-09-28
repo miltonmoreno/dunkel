@@ -1,0 +1,19 @@
+.itemDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenDetalle{
+    width: 40%;
+    height: 40%;
+}

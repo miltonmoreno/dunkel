@@ -1,6 +1,7 @@
 import "./NavBar.css";
 import logo from "../../assets/logo_Mesa de trabajo 1.png"
 import CartWidget from "../CartWidget/CartWidget"
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -9,15 +10,9 @@ function NavBar() {
         <img className="logo" src={logo} alt="Logo de Dunkel" />
       </div>
       <ul className="navBarLinks">
-        <li>
-          <a className="navBarItems" href="">Inicio</a>
-        </li>
-        <li>
-          <a className="navBarItems" href="">Hombres</a>
-        </li>
-        <li>
-          <a className="navBarItems" href="">Mujeres</a>
-        </li>
+        <Link to="/" className="navBarItems">Inicio</Link>
+        <Link to="/categoria/hombre" className="navBarItems">Hombres</Link>
+        <Link to="/categoria/mujer" className="navBarItems">Mujeres</Link>
       </ul>
       <CartWidget/>
     </nav>
